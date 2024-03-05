@@ -7,6 +7,7 @@ AtlasWeather is a weather website built with SvelteKit and deployed on Vercel. I
 - **Real-time weather data:** Get the latest temperature, humidity, wind speed, and other weather conditions for your location.
 - **City search:** Enter a city name to view its weather details.
 - **Responsive design:** The website adapts to different screen sizes, ensuring optimal viewing experience on any device.
+- **PWA support:** Install the app on your mobile devices.
 
 ### Tech Stack
 
