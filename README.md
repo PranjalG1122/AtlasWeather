@@ -1,38 +1,23 @@
-# create-svelte
+## AtlasWeather
 
-Everything you need to build a Svelte project, powered by [`create-svelte`](https://github.com/sveltejs/kit/tree/main/packages/create-svelte).
+AtlasWeather is a weather website built with SvelteKit and deployed on Vercel. It leverages the Openweathermap API to fetch real-time weather data and open-meteo to retrieve city information.
 
-## Creating a project
+### Features
 
-If you're seeing this, you've probably already done this step. Congrats!
+- **Real-time weather data:** Get the latest temperature, humidity, wind speed, and other weather conditions for your location.
+- **City search:** Enter a city name to view its weather details.
+- **Responsive design:** The website adapts to different screen sizes, ensuring optimal viewing experience on any device.
 
-```bash
-# create a new project in the current directory
-npm create svelte@latest
+### Tech Stack
 
-# create a new project in my-app
-npm create svelte@latest my-app
-```
+- **Frontend:** SvelteKit, Tailwind CSS, Typescript
+- **Deployment:** Vercel
+- **APIs:** Openweathermap API (weather data), open-meteo (city data)
 
-## Developing
+### Disclaimer
 
-Once you've created a project and installed dependencies with `npm install` (or `pnpm install` or `yarn`), start a development server:
+This project is for educational purposes only and is not intended for commercial use. The provided APIs have their own terms and conditions, and it's your responsibility to comply with them when using this project.
 
-```bash
-npm run dev
+### License
 
-# or start the server and open the app in a new browser tab
-npm run dev -- --open
-```
-
-## Building
-
-To create a production version of your app:
-
-```bash
-npm run build
-```
-
-You can preview the production build with `npm run preview`.
-
-> To deploy your app, you may need to install an [adapter](https://kit.svelte.dev/docs/adapters) for your target environment.
+This project is licensed under the MIT License. See the LICENSE file for details.
