@@ -13,7 +13,6 @@
 		if (!body.reults) {
 			dropdownOpen = true;
 		}
-		console.log(body);
 		results = body.results;
 		dropdownOpen = true;
 	};
