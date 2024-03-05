@@ -17,9 +17,10 @@ export default defineConfig({
 				theme_color: '#1e293b',
 				icons: [
 					{
-						src: './favicon.png',
+						src: './icon.png',
 						type: 'image/png',
-						sizes: '512x512'
+						sizes: '512x512',
+						purpose: 'maskable any'
 					}
 				],
 				id: 'atlas-weather.vercel.app',
