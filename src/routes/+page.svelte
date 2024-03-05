@@ -30,9 +30,7 @@
 	});
 </script>
 
-<svelte:head>
-	<title>Atlas Weather</title>
-</svelte:head>
+
 <main
 	class="w-screen min-h-screen bg-slate-900 text-slate-100 lg:p-8 p-2 flex flex-col items-center gap-4"
 >
