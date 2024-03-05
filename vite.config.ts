@@ -12,7 +12,7 @@ export default defineConfig({
 				name: 'Atlas-Weather',
 				orientation: 'any',
 				scope: '/',
-				short_name: 'atlasweather',
+				short_name: 'Atlas-Weather',
 				start_url: '/',
 				theme_color: '#1e293b',
 				icons: [
